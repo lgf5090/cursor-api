@@ -35,7 +35,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "cursor-api"
-          entrypoint: "src/index.js"
+          entrypoint: ""
           root: ""
           
           

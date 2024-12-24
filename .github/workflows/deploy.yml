@@ -34,8 +34,8 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "cursor-api"
-          entrypoint: ""
+          project: "lgf5090-cursor-api-69"
+          entrypoint: "https://deno.land/std@0.188.0/http/file_server.ts"
           root: ""
           
           
